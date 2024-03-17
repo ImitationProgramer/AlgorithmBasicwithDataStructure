@@ -14,6 +14,7 @@ public class TwoDigits {
 			System.out.print("no값: ");
 			no = sc.nextInt();
 		} while (no < 10 || no > 99);
+		System.out.println("변수 no값은 " + no + "이 되었습니다.");
 	}
 
 }
